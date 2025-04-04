@@ -1,29 +1,37 @@
-# 📈 StockSense - Real-Time Stock Market Price Prediction
+# 📈 StockSense - Stock Market Price Prediction using LSTM
 
-**StockSense** is a machine learning-based web app that predicts the next-day closing price of Indian stocks using deep learning (LSTM). It fetches real-time stock data from Yahoo Finance and displays predictions through an interactive Streamlit web interface.
+A real-time stock market price predictor built using **LSTM (Long Short-Term Memory)** neural networks and deployed via **Streamlit**. This project allows users to select a stock and predict its next-day closing price based on the past 60 days of historical stock data.
 
 ---
 
 ## 🚀 Features
 
-- 🔁 Real-time stock data fetching (via Yahoo Finance)
-- 🧠 Trained deep learning model (LSTM)
-- 📊 Predicts next-day closing price
-- 📉 Uses last 60 trading days for forecasting
-- 🎛️ Clean Streamlit UI with dropdown stock selector
-- 🔐 Local model prediction (no need for re-training)
+- Predict next-day closing stock price using LSTM
+- Clean and interactive Streamlit web interface
+- Dropdown list to select NIFTY 50 stocks
+- No need to upload datasets manually
+- Easily extensible for real-time data with API integration
 
 ---
 
-## 📦 Tech Stack
+## 🧠 Technologies Used
 
-- **Frontend**: Streamlit
-- **Backend**: Python
-- **ML Model**: LSTM using TensorFlow/Keras
-- **Data Source**: `yfinance`
-- **Libraries**: Pandas, NumPy, scikit-learn
+- Python
+- TensorFlow / Keras
+- NumPy & Pandas
+- Scikit-learn
+- Streamlit
 
 ---
 
-## 🗂️ Project Structure
+## 📁 Project Structure
+
+```bash
+Stocksense/
+├── script.py                    # Streamlit UI code
+├── stock_prediction_model.h5   # Trained LSTM model
+├── stock_data_long_format.csv  # Historical stock dataset
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation
+
 
