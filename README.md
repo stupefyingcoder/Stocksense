@@ -1,37 +1,18 @@
-# 📈 StockSense - Stock Market Price Prediction using LSTM
+# 📈 StockSense - Real-Time Stock Price Predictor
 
-A real-time stock market price predictor built using **LSTM (Long Short-Term Memory)** neural networks and deployed via **Streamlit**. This project allows users to select a stock and predict its next-day closing price based on the past 60 days of historical stock data.
+StockSense is a deep learning-based web application that predicts stock prices for selected NIFTY 50 companies using LSTM (Long Short-Term Memory) networks. Built with Streamlit, this project provides a simple UI for end users to view predictions based on the last 60 days of stock data.
 
 ---
 
 ## 🚀 Features
 
-- Predict next-day closing stock price using LSTM
-- Clean and interactive Streamlit web interface
-- Dropdown list to select NIFTY 50 stocks
-- No need to upload datasets manually
-- Easily extensible for real-time data with API integration
+- 🔮 Predict future stock price using historical data (last 60 days)
+- 📊 Dropdown-based stock selection for simplicity
+- 📁 No need to upload dataset manually — it’s loaded automatically
+- 🧠 LSTM-based deep learning model
+- 🌐 Streamlit-powered responsive UI
 
----
 
-## 🧠 Technologies Used
 
-- Python
-- TensorFlow / Keras
-- NumPy & Pandas
-- Scikit-learn
-- Streamlit
-
----
-
-## 📁 Project Structure
-
-```bash
-Stocksense/
-├── script.py                    # Streamlit UI code
-├── stock_prediction_model.h5   # Trained LSTM model
-├── stock_data_long_format.csv  # Historical stock dataset
-├── requirements.txt            # Python dependencies
-└── README.md                   # Project documentation
 
 
