@@ -106,7 +106,7 @@ The model (`stock_prediction_model.h5`) is a trained **LSTM model** for forecast
 
 **Prajwal Prakash Kulkarni**  
 AI & Data Science Student  
-🔗 [LinkedIn](www.linkedin.com/in/kprajwal206) (optional)  
+🔗 [LinkedIn](www.linkedin.com/in/kprajwal206)  
 📧 Email: kprajwal206@gmail.com
 
 ---
